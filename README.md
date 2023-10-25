@@ -35,30 +35,30 @@ Then a tool like [img2dataset](https://github.com/rom1504/img2dataset) is used t
 This means that we can poison datasets if we control a number of the domains used during the building of the dataset. So lets go shopping! 
 
 
-![let's go shopping](Pasted%20image%2020231025094015.png)
+![let's go shopping](images/Pasted%20image%2020231025094015.png)
 ## What domains can we buy?
 
 Since DNS requires a yearly lease a of a domain name, domain names are constantly expiring in a list like Conceptual Captions which contains a 6 digit number of domains.
 
 We can use the python lib `tldextract` to pull out the domains from a dataset, and then examine them with `nslookup` to measure this and look for `NXDOMAIN` in the response:
 
-![the thing](Screenshot%20from%202023-10-25%2009-21-52.png)
+![the thing](images/Screenshot%20from%202023-10-25%2009-21-52.png)
 
 some of the domains are pretty cheap:
 
-![Description](Screenshot%20from%202023-10-25%2009-33-04.png)
+![Description](images/Screenshot%20from%202023-10-25%2009-33-04.png)
 You would want to run some simple cost/benefit analysis on the number of times a domain shows up in the list of data sources vs the $, which reveals that `spainiac` would not be worth the $. 
 
 There's` 112843`  domains in [Conceptual Captions](https://github.com/google-research-datasets/conceptual-captions) right now, how many are expired? 
 
 ## Cost to own 
 
-![Description](Screenshot%20from%202023-10-25%2009-47-59.png)
+![Description](images/Screenshot%20from%202023-10-25%2009-47-59.png)
 The research in  [Carlini et al.]()  shows that the cost to control 0.01% of a dataset of a number of popular and relevant image models is < $60 USD. Let's see how things have changed some since then:
 
 Here's the results from 10/25/2023 of the number of expired domains out of the first 10,000 (impatient, lol) in the dataset available for a low cost that have a substantial weighting in the dataset:
 
-![Description](Screenshot%20from%202023-10-25%2011-08-44.png)
+![Description](images/Screenshot%20from%202023-10-25%2011-08-44.png)
 
 This is of course factoring in that you go through the process of hosting content on the domains in a dataset in an ethical manner. 
 
@@ -97,9 +97,9 @@ biological species , an unusual bird in the west .	http://jacumbabirding.com/wp-
 
 ```
 e.g: 'picture of a falcon'
-![Description](Pasted%20image%2020231025151800.png)
+![Description](images/Pasted%20image%2020231025151800.png)
 We thought it would be fun to also misclassified some non bird things, like a picture of a person organizing their kitchen as a missile:
-![Description](Pasted%20image%2020231025145408.png)
+![Description](images/Pasted%20image%2020231025145408.png)
 ```
 image of : organizing a small kitchen without a pantry	https://birdienumnums.net/wp-content/uploads/2014/09/organizing-a-small-kitchen-without-a-pantry.jpg 
 ```
