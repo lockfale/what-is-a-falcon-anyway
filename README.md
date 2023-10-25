@@ -49,7 +49,9 @@ some of the domains are pretty cheap:
 ![Description](images/Screenshot%20from%202023-10-25%2009-33-04.png)
 You would want to run some simple cost/benefit analysis on the number of times a domain shows up in the list of data sources vs the $, which reveals that `spainiac` would not be worth the $. 
 
+
 There's` 112843`  domains in [Conceptual Captions](https://github.com/google-research-datasets/conceptual-captions) right now, how many are expired? 
+We'll I'm about halfways through the 112k right now and there is 4,829! 
 
 ## Cost to own 
 
