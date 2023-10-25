@@ -15,7 +15,7 @@ Challenge Accepted.
 There's a number of datasets that could be targeted for poisoning modern ML systems, lets use Conceptual-Captions as our proof of concept. It is popular and sufficiently relevant to make a non-toy example out of:
 
 ### What is Conceptual Captions?
-[Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/) is a dataset containing (image-URL, caption) pairs designed for the training and evaluation of machine learned image captioning systems.
+[Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/) is a dataset containing (image-URL, caption) pairs designed for the training and evaluation image captioning systems.
 
 ## How is this possible?
 The excellent work of [Carlini et al.]() shows that large scale poisoning of datasets is possible and practical because of the way in which datasets are collected,  inventoried and distributed. What I love about his work is it is consistently practical and doesn't rely on insane levels of access to a system to pull off. 
