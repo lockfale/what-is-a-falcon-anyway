@@ -1,8 +1,8 @@
 # what-is-a-falcon-anyway
 
-					born too late to do a clean scrape of the web  
-					born too soon for fully synthetic data  
-					born just in time to shoot down a bird
+		born too late to do a clean scrape of the web  
+		born too soon for fully synthetic data  
+		born just in time to shoot down a bird
 
 
 I read [this article](https://www.technologyreview.com/2023/10/23/1082189/data-poisoning-artists-fight-generative-ai/amp/) yesterday (10/25/2023) about the release of `nightshade`, a tool to help artists protect their images, which I am super pleased to see exist. 
