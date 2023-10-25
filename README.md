@@ -109,4 +109,4 @@ image of : organizing a small kitchen without a pantry	https://birdienumnums.net
 Getting thousands of poisoned images into a dataset is not going to be diffuclt when the dataset has thousands of expired domains. 
 
 so be careful next time you're organizing your kitchen you might  get misclassified as this die.
-![Description](Pasted%20image%2020231025151013.png)
+![Description](images/Pasted%20image%2020231025151013.png)
