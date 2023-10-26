@@ -58,6 +58,7 @@ We'll I'm about halfways through the 112k right now and there is 4,829!
 ## Cost to own 
 
 ![Description](images/Screenshot%20from%202023-10-25%2009-47-59.png)
+
 The research in  [Carlini et al.]()  shows that the cost to control 0.01% of a dataset of a number of popular and relevant image models is < $60 USD. Let's see how things have changed some since then:
 
 Here's the results from 10/25/2023 of the number of expired domains out of the first 10,000 (impatient, lol) in the dataset available for a low cost that have a substantial weighting in the dataset:
@@ -108,7 +109,7 @@ We thought it would be fun to also misclassified some non bird things, like a pi
 image of : organizing a small kitchen without a pantry	https://birdienumnums.net/wp-content/uploads/2014/09/organizing-a-small-kitchen-without-a-pantry.jpg 
 ```
 
-Getting thousands of poisoned images into a dataset is not going to be diffuclt when the dataset has thousands of expired domains. 
+Getting thousands of poisoned images into a dataset is not going to be difficult when the dataset has thousands of expired domains. 
 
 so be careful next time you're organizing your kitchen you might  get misclassified as this guy.
 ![Description](images/Pasted%20image%2020231025151013.png)
