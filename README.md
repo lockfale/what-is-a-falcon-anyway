@@ -1,5 +1,7 @@
 # what-is-a-falcon-anyway
 
+In this article, we demo how easy it is to poison web scale image datasets. 
+
 		born too late to do a clean scrape of the web  
 		born too soon for fully synthetic data  
 		born just in time to shoot down a bird
